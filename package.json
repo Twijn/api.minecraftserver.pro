@@ -1,0 +1,26 @@
+{
+  "name": "mspro-api",
+  "version": "1.0.0",
+  "description": "API package for minecraftserver.pro",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twijn/api.minecraftserver.pro.git"
+  },
+  "author": "Twijn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Twijn/api.minecraftserver.pro/issues"
+  },
+  "homepage": "https://github.com/Twijn/api.minecraftserver.pro#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.2",
+    "minecraft-server-ping": "^0.0.8",
+    "mysql": "^2.18.1"
+  }
+}
